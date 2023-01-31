@@ -1,0 +1,31 @@
+body {
+    background: url(heart.png) repeat center;
+    animation: fly 30s linear infinite;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50px;
+  }
+  
+  @keyframes fly {
+    from { background-position: 0 100%; }
+    to { background-position: 0 0; }
+  }
+  
+  #title {
+    color: red;
+    margin-top: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  #message {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  

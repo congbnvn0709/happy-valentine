@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #title {
+    color: red;
+    margin-top: 100px;
+  }
+  
+  #message {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  
+  button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
